@@ -18,7 +18,7 @@ const Navbar = () => {
   return (
     <nav 
       className={`
-        fixed top-0 left-0 right-0 z-50 transition-all duration-300 ease-in-out
+        fixed top-0 left-0 right-0 z-50 transition-all duration-300 font-sans ease-in-out
         ${isScrolled 
           ? 'bg-white/95 backdrop-blur-md shadow-sm border-b border-gray-100' 
           : 'bg-white/80 backdrop-blur-sm'
@@ -46,7 +46,7 @@ const Navbar = () => {
 
           {/* Desktop Menu - Left Side */}
           <div className="hidden lg:flex items-center space-x-8">
-            {['About', 'Classes', 'Pricing', 'Schedule', 'Contacts'].map((item) => (
+            {['How It Works', 'Program', 'Pricing', 'SUccess Stories', 'Download App'].map((item) => (
               <a
                 key={item}
                 href={`#${item.toLowerCase()}`}
@@ -74,7 +74,7 @@ const Navbar = () => {
               <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
               </svg>
-              <span>+1 (234) 567 89 00</span>
+              <span>Start Free Trial</span>
             </div>
 
             {/* Mobile Menu Button */}

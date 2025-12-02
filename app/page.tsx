@@ -1,12 +1,24 @@
 import Navbar from "@/components/common/Navbar";
 import HomeHero from "@/components/HomeSections/HomeHero";
-import Image from "next/image";
+import AboutSection from "@/components/HomeSections/AboutSection";
+import PillarsSection from "@/components/HomeSections/PillarsSection";
+import ExpertsSection from "@/components/HomeSections/ExpertsSection";
+import TestimonialsSection from "@/components/HomeSections/TestimonialsSection";
+import CTASection from "@/components/HomeSections/CTASection";
+import Footer from "@/components/common/Footer";
+import OurServices from "@/components/HomeSections/ourServices";
 
 export default function Home() {
   return (
-   <>
-    <Navbar />
-    <HomeHero />
-   </>
+    <div className="overflow-x-hidden font-playfair">
+      <Navbar />
+      <HomeHero />
+      <AboutSection />
+      <PillarsSection />
+      <TestimonialsSection />
+      <ExpertsSection />
+      <CTASection />
+      <Footer />
+    </div>
   );
 }
