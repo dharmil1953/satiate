@@ -10,7 +10,7 @@ import OurServices from "@/components/HomeSections/ourServices";
 
 export default function Home() {
   return (
-    <div className="overflow-x-hidden font-playfair">
+    <div className="overflow-x-hidden font-robotoCondensed">
       <Navbar />
       <HomeHero />
       <AboutSection />

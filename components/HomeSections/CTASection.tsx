@@ -35,17 +35,17 @@ const CTASection = () => {
           viewport={{ once: true }}
           className="max-w-3xl text-left"
         >
-          <h2 className="text-4xl md:text-6xl font-bold font-playfair leading-tight text-white md:text-gray-900">
+          <h2 className="text-4xl md:text-6xl font-bold font-robotoCondensed leading-tight text-white md:text-gray-900">
             Ready to make your success stick?
           </h2>
 
-          <p className="text-xl md:text-2xl mt-6 text-blue-100 md:text-gray-700 font-sans">
+          <p className="text-xl md:text-2xl mt-6 text-blue-100 md:text-gray-700 font-robotoCondensed">
             Join the waitlist today and be part of shaping Satiate from the very
             start.
           </p>
 
           {/* Badges */}
-          <div className="flex flex-wrap md:flex-row gap-4 mt-10 font-sans">
+          <div className="flex flex-wrap md:flex-row gap-4 mt-10 font-robotoCondensed">
             <span className="flex items-center gap-2 bg-white/10 md:bg-white/80 backdrop-blur-sm px-4 py-2 rounded-full text-white md:text-gray-800">
               ✔ 30-Day Free Trial
             </span>
@@ -61,7 +61,7 @@ const CTASection = () => {
           <motion.button
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
-            className="mt-10 bg-blue-600 font-sans text-white px-10 py-5 rounded-full text-xl font-bold shadow-xl hover:bg-blue-700"
+            className="mt-10 bg-blue-600 font-robotoCondensed text-white px-10 py-5 rounded-full text-xl font-bold shadow-xl hover:bg-blue-700"
           >
             Become a FREE Founder Member Today
           </motion.button>

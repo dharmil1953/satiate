@@ -15,15 +15,15 @@ const AboutSection = () => {
             transition={{ duration: 0.8 }}
             className="w-full lg:w-1/2 relative"
           >
-            <span className="text-blue-600 font-bold tracking-widest uppercase mb-4 block text-sm font-sans">
+            <span className="text-blue-600 font-bold tracking-widest uppercase mb-4 block text-sm font-robotoCondensed">
               Who We Are
             </span>
 
-            <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 mb-8 leading-tight font-playfair">
+            <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 mb-8 leading-tight font-robotoCondensed">
               Satiate is built for the next era of weight management.
             </h2>
 
-            <div className="space-y-6 text-lg text-gray-800 leading-relaxed font-sans">
+            <div className="space-y-6 text-lg text-gray-800 leading-relaxed font-robotoCondensed">
               <p>
                 We combine nutrition science, personalized fitness plans, and
                 mental wellness coaching to help you achieve lasting results—not
@@ -46,7 +46,7 @@ const AboutSection = () => {
               <motion.button
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
-                className="mt-6 px-8 py-3 font-sans text-lg border-2 border-indigo-600 text-indigo-600 rounded-full hover:bg-indigo-600 hover:text-white transition"
+                className="mt-6 px-8 py-3 font-robotoCondensed text-lg border-2 border-indigo-600 text-indigo-600 rounded-full hover:bg-indigo-600 hover:text-white transition"
               >
                 Discover Our Method →
               </motion.button>

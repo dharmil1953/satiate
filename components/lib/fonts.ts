@@ -1,8 +1,8 @@
-import { Playfair_Display } from 'next/font/google'
+import { Roboto_Condensed } from 'next/font/google'
 
-export const playfairDisplay = Playfair_Display({
+export const robotoCondensed = Roboto_Condensed({
   subsets: ['latin'],
-  weight: ['400', '700', '800'],
-  variable: '--font-playfair',
+  weight: ["300", "400", "500", "700"],
+  variable: '--font-sans',
   display: 'swap',
 })

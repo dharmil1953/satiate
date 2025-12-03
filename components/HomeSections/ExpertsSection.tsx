@@ -31,7 +31,7 @@ const ExpertsSection = () => {
                     <span className="text-blue-600 font-bold tracking-wider uppercase mb-4 block">
                         Our Team
                     </span>
-                    <h2 className="text-4xl md:text-5xl font-bold text-gray-900 font-playfair">
+                    <h2 className="text-4xl md:text-5xl font-bold text-gray-900 font-robotoCondensed">
                         Backed by experts, built for you
                     </h2>
                 </div>
@@ -55,12 +55,12 @@ const ExpertsSection = () => {
                                 />
                             </div>
 
-                            <h3 className="text-2xl font-bold text-gray-900 mb-2 font-playfair">{expert.name}</h3>
+                            <h3 className="text-2xl font-bold text-gray-900 mb-2 font-robotoCondensed">{expert.name}</h3>
                             <p className="text-blue-600 font-medium mb-4 uppercase text-sm tracking-wide">{expert.role}</p>
 
                             <div className="relative p-1 bg-gray-50 rounded-2xl">
                                 
-                                <p className="text-gray-600 italic leading-relaxed relative z-10 font-sans">
+                                <p className="text-gray-600 italic leading-relaxed relative z-10 font-robotoCondensed">
                                     "{expert.quote}"
                                 </p>
                             </div>

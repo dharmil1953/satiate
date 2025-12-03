@@ -59,7 +59,7 @@ export default function TestimonialsSection() {
   const testimonial = testimonials[index];
 
   return (
-    <section className="py-16 bg-white font-playfair">
+    <section className="py-16 bg-white font-robotoCondensed">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 max-w-4xl">
         {/* Header */}
         <div className="text-center mb-12">

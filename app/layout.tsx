@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
-import { playfairDisplay } from "@/components/lib/fonts";
+import { robotoCondensed } from "@/components/lib/fonts";
 
 export const metadata: Metadata = {
   title: "SATIATE",
@@ -14,7 +14,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className={`${playfairDisplay.variable}`}>
+    <html lang="en" className={`${robotoCondensed.variable}`}>
       <body className="antialiased">
         {children}
       </body>

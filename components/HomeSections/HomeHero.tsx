@@ -218,11 +218,11 @@ const HomeHero = () => {
             transition={{ duration: 0.7 }}
             className="w-full md:w-1/2 max-w-2xl"
           >
-            <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold text-black leading-tight drop-shadow-2xl">
+            <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold font-robotoCondensed text-black leading-tight drop-shadow-2xl">
               {slides[index].heading}
             </h1>
 
-            <p className="text-xl md:text-2xl lg:text-3xl text-gray-800 mt-6 mb-8 drop-shadow-xl font-sans">
+            <p className="text-xl md:text-2xl lg:text-3xl text-gray-800 font-robotoCondensed mt-6 mb-8 drop-shadow-xl font-sans">
               {slides[index].subheading}
             </p>
 

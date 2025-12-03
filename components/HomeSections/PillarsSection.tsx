@@ -44,7 +44,7 @@ const PillarsSection = () => {
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
-            className="text-blue-600 font-bold tracking-wider uppercase mb-4 block font-sans"
+            className="text-blue-600 font-bold tracking-wider uppercase mb-4 block font-robotoCondensed"
           >
             Our Philosophy
           </motion.span>
@@ -53,7 +53,7 @@ const PillarsSection = () => {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ delay: 0.1 }}
-            className="text-4xl md:text-5xl font-bold text-gray-900 mb-6 font-playfair"
+            className="text-4xl md:text-5xl font-bold text-gray-900 mb-6 font-robotoCondensed"
           >
             Your all-in-one coach to lasting success
           </motion.h2>
@@ -62,7 +62,7 @@ const PillarsSection = () => {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ delay: 0.2 }}
-            className="text-xl text-gray-600 font-sans"
+            className="text-xl text-gray-600 font-robotoCondensed"
           >
             Satiate helps you transition from weight loss to long-term
             maintenance.
@@ -90,14 +90,14 @@ const PillarsSection = () => {
               </div>
 
               <h3
-                className={`text-4xl font-bold mb-2 ${pillar.textColor} font-playfair`}
+                className={`text-4xl font-bold mb-2 ${pillar.textColor} font-robotoCondensed`}
               >
                 {pillar.title}
               </h3>
               <h4 className="text-xl font-semibold text-gray-900 mb-4">
                 {pillar.subtitle}
               </h4>
-              <p className="text-gray-600 leading-relaxed font-sans">
+              <p className="text-gray-600 leading-relaxed font-robotoCondensed">
                 {pillar.description}
               </p>
             </motion.div>
