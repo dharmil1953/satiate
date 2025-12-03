@@ -69,7 +69,7 @@ export default function TestimonialsSection() {
           <h2 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-4">
             Clients Say About Us
           </h2>
-          <p className="text-gray-600 text-lg max-w-2xl mx-auto font-sans">
+          <p className="text-gray-600 text-lg max-w-2xl mx-auto font-robotoCondensed">
             Real people. Real transformations. Real results.
           </p>
         </div>
@@ -104,12 +104,12 @@ export default function TestimonialsSection() {
               </h3>
 
               {/* Quote */}
-              <p className="text-gray-900 text-xl leading-relaxed max-w-3xl mx-auto mb-6 px-4 font-sans">
+              <p className="text-gray-900 text-xl leading-relaxed max-w-3xl mx-auto mb-6 px-4 font-robotoCondensed">
                 "{testimonial.quote}"
               </p>
 
               {/* Date */}
-              <p className="text-blue-600 font-semibold uppercase tracking-wider text-sm font-sans">
+              <p className="text-blue-600 font-semibold uppercase tracking-wider text-sm font-robotoCondensed">
                 {testimonial.date}
               </p>
             </motion.div>

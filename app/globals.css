@@ -23,16 +23,3 @@ body {
   @apply bg-background text-foreground;
   line-height: 1.6;
 }
-.font-playfair {
-  font-family: var(--font-playfair), serif !important;
-}
-
-.font-playfair-bold {
-  font-family: var(--font-playfair), serif !important;
-  font-weight: 700;
-}
-
-.font-playfair-extrabold {
-  font-family: var(--font-playfair), serif !important;
-  font-weight: 800;
-}

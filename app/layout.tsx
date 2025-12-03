@@ -4,6 +4,7 @@ import "./globals.css";
 import { robotoCondensed } from "@/components/lib/fonts";
 
 export const metadata: Metadata = {
+  robots: "noindex, nofollow",
   title: "SATIATE",
   description: "Weight Maintenance Program",
 };
